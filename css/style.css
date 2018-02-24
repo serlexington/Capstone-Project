@@ -5,6 +5,59 @@ body{
 div{
   border: 1px solid black;
 }
-.container{
+
+.flex-container{
   display: flex;
+}
+.container{
+
+}
+div{
+  display: block;
+}
+
+/* Navigation Section */
+
+
+
+
+
+/* Jumbotron Section */
+
+.jumbotron img{
+
+  width: 60%;
+  height: 80%;
+}
+
+/* Content Section */
+
+.content img{
+  width: 70%;
+}
+
+.small-container{
+  width: 40%;
+}
+
+.small-box{
+  width: 65%;
+}
+.small-box img{
+  height: auto;
+  width: 35%;
+}
+
+/* Start Learning Section */
+.learning{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.course-image{
+  
+}
+.course-image img{
+  width: 40%;
+  height: auto;
 }
