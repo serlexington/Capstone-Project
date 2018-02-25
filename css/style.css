@@ -49,7 +49,7 @@ nav{
 .jumbotron{
   align-items: center;
   padding-top: 4rem;
-  background-color: gray;
+  background-color: lightgrey;
 }
 .jumbotron img{
   margin: 2rem 1.5rem;
@@ -83,42 +83,75 @@ nav{
 /* Content Section */
 
 .content{
-  margin: 2rem 1.5rem;
+  margin: 2rem 0 2rem 1.5rem;
+  width: 90%;
+  line-height: 1.5;
+
 }
 .content img{
   width: 70%;
 }
 
 .small-container{
-  display:
   width: 40%;
   margin-top: 2rem;
+  margin-right: 2rem;
 }
 
 .small-box{
+  display: flex;
+  padding: 0.5rem 0 0.5rem 0;
   margin: 0;
+
 }
 .small-box img{
   height: auto;
-  width: 40%;
+  width: 70%;
 }
 .box-text{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: center;
+  line-height: 1.5;
+}
+.content h1{
+  font-size: 2rem;
+}
+.content p{
+  font-size: 1.5rem;
+}
+.color-fill{
+  background-color: lightgrey;
 }
 /* Start Learning Section */
 
 .learning{
   display: flex;
   flex-wrap: wrap;
-
-
+  margin: 0 0 2rem 4.5rem;
+  justify-content: center;
 }
-
+.learning-container{
+  background-color: lightgrey;
+}
 .courses{
   width: 30%;
 }
 
-
+.heading{
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.course-info{
+  background-color: white;
+  width: 70%;
+  margin-top: 0;
+}
+.course-image{
+}
 /* Thesis Exhibit Section */
 
 video{
