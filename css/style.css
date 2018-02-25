@@ -48,7 +48,7 @@ nav{
 /* Jumbotron Section */
 .jumbotron{
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 4rem;
   background-color: gray;
 }
 .jumbotron img{
@@ -56,15 +56,43 @@ nav{
   width: 50%;
   height: 50%;
 }
+.info{
+  margin-left: 1.5rem;
+}
+.info h1{
+  font-size: 3.2rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.info h2{
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.info p{
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 60%;
+
+}
+
 
 /* Content Section */
 
+.content{
+  margin: 2rem 0 0 1.5rem;
+}
 .content img{
   width: 70%;
 }
 
 .small-container{
+  display:
   width: 40%;
+  margin-top: 2rem;
 }
 
 .small-box{
@@ -72,16 +100,25 @@ nav{
 }
 .small-box img{
   height: auto;
-  width: 35%;
+  width: 40%;
 }
 
 /* Start Learning Section */
 
 .learning{
   display: flex;
-  
+  flex-wrap: wrap;
+
+
 }
 
 .courses{
+  width: 30%;
+}
+
+
+/* Thesis Exhibit Section */
+
+video{
   width: 60%;
 }
