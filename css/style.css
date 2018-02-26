@@ -196,3 +196,19 @@ video{
 .buffer p{
   padding-top: 1rem;
 }
+
+/* Footer Section */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+.footer-copy{
+  margin-left: 1.5rem;
+}
+.footer-links a{
+  margin-right: 1.5rem;
+
+}
