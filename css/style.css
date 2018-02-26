@@ -104,6 +104,9 @@ nav{
   margin: 0;
 
 }
+.small-box h1{
+  font-size: 1.35rem;
+}
 .small-box img{
   height: auto;
   width: 70%;
@@ -131,12 +134,14 @@ nav{
   flex-wrap: wrap;
   margin: 0 0 2rem 4.5rem;
   justify-content: center;
+  padding-bottom: 1rem;
 }
 .learning-container{
   background-color: lightgrey;
 }
 .courses{
   width: 30%;
+  margin-bottom: 2rem;
 }
 
 .heading{
@@ -147,13 +152,47 @@ nav{
 }
 .course-info{
   background-color: white;
-  width: 70%;
+  width: 16.75rem;
   margin-top: 0;
+  line-height: 1.5;
+
 }
-.course-image{
+.course-info h4{
+  padding-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.course-info h3{
+   margin-left: 1rem;
+}
+
+.course-info p{
+  margin-left: 1rem;
+  padding: 0.5rem 0;
+}
+.course-image img{
+  height: auto;
+
 }
 /* Thesis Exhibit Section */
 
 video{
   width: 60%;
+  margin: 2rem 0 0 1.5rem;
+}
+.video{
+  width: 60%;
+}
+.video p{
+  margin-left: 2rem;
+  padding: 0.5rem 0 2rem 0;
+}
+.video h1{
+  padding-top: 1.5rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+.buffer p{
+  padding-top: 1rem;
 }
