@@ -120,9 +120,9 @@ nav span{
   background-color: #383737;
   color: #f9f9f7;
   width: 60%;
-  transition: background-color 00ms linear 50ms,
-              border-radius 300ms linear 50ms,
-              color 300ms linear 50ms;
+  transition: background-color 100ms linear 50ms,
+              border-radius 100ms linear 50ms,
+              color 100ms linear 50ms;
 }
 
 .info p:active{
@@ -147,7 +147,7 @@ nav span{
 .small-container{
   width: 40%;
   margin-top: 2rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 
@@ -195,6 +195,10 @@ nav span{
   border-top: 2px solid #dbd9d9;
 }
 
+.text-padding p{
+  padding-top: 0.5rem;
+}
+
 
 /* Start Learning Section */
 
@@ -223,6 +227,7 @@ nav span{
   width: 16.75rem;
   margin-top: 0;
   line-height: 1.5;
+  height: auto;
 
 }
 
@@ -235,6 +240,7 @@ nav span{
 
 .course-info h3{
    margin-left: 1rem;
+   padding-bottom:
 }
 
 .course-info p{
@@ -248,6 +254,14 @@ nav span{
 }
 .bottom-border{
   border-bottom: 2px solid #dbd9d9;
+
+}
+
+.software h4{
+  font-size: 1.3rem;
+}
+.software{
+  padding-bottom: 0.9rem;
 }
 /* Thesis Exhibit Section */
 
