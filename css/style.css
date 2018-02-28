@@ -258,6 +258,14 @@ nav span{
   padding: 0.5rem 0;
 }
 
+.course-info a{
+  transition: text-shadow 5s linear 0;
+}
+
+.course-info a:hover{
+  text-shadow: 1px 1px #636363;
+}
+
 .course-image img{
   height: auto;
 
@@ -273,6 +281,7 @@ nav span{
 .software{
   padding-bottom: 0.9rem;
 }
+
 /* Thesis Exhibit Section */
 
 video{
@@ -306,6 +315,7 @@ video{
   border-left:  2px solid #dbd9d9;
   margin-bottom: 1rem;
 }
+
 /* Footer Section */
 
 footer{
@@ -321,6 +331,16 @@ footer{
 
 .footer-links a{
   margin-right: 1.5rem;
+  transition: background-color 300ms linear 100ms,
+              border-radius 300ms linear 100ms,
+              color 300ms linear 100ms;
+  padding: 1rem;
+}
+
+.footer-links a:hover{
+  background-color:  #0091cc;
+  color: #f9f9f7;
+  border-radius: 13px;
 }
 
 /* Media Queries */
@@ -356,6 +376,7 @@ footer{
   }
   .info h1{
     font-size: 1.4rem;
+    text-align: center;
   }
 
   .info h2 {
@@ -412,18 +433,22 @@ footer{
   width: 100%;
   margin: 0 0 0.5rem 0.5rem;
  }
+
  .courses p, h3{
    display: none;
  }
+
  .course-info{
    background-color: #dbd9d9;
    width: auto;
    text-align: left;
    margin-right: 1rem;
  }
+
  .course-info h4{
    padding: 1rem 0 1.5rem 0;
  }
+
  .software{
    padding: 0;
    font-size: 1.5rem;
